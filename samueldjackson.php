@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
  * HackMeUp quick project: PHP File analyzer using PHP´s own token parser
@@ -29,8 +29,8 @@ class SamuelDocumenterJackson {
 	/**
 	 * Class constructor
 	 *
-	 * @param $filePath
-	 * @param $debug
+	 * @param string $filePath
+	 * @param bool $debug
 	 */
 	public function __construct($filePath, $debug) {
 		$this->filePath = $filePath;
